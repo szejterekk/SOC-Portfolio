@@ -1,43 +1,84 @@
 # Incident Report
 
-## Alert
+## Alert Summary
+
+Short description of the alert.
 
 ---
 
-## Summary
+## Classification
 
----
-
-## Investigation
-
----
-
-## Evidence
-
----
-
-## Findings
+- True Positive
+- False Positive
+- Benign Positive
 
 ---
 
 ## Severity
 
-Low
+- Low
+- Medium
+- High
+- Critical
 
-Medium
+---
 
-High
+## Five Ws
+
+### Who
+
+---
+
+### What
+
+---
+
+### When
+
+---
+
+### Where
+
+---
+
+### Why
+
+---
+
+## Investigation
+
+Describe all performed investigation steps.
+
+---
+
+## Evidence
+
+- Logs
+- Processes
+- Network Activity
+- Command Line
+- File Hashes
 
 ---
 
 ## Recommendation
 
+Describe recommended next action.
+
 ---
 
-## Final Verdict
+## Escalation
 
-True Positive
+Required?
 
-False Positive
+Yes / No
 
-Benign Positive
+Assigned To
+
+---
+
+## Analyst
+
+Name
+
+Date
