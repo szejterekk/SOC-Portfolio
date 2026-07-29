@@ -45,3 +45,37 @@
 
 - [ ] Document findings
 - [ ] Escalate if required
+
+## Reporting
+
+- [ ] Write investigation summary
+- [ ] Include evidence
+- [ ] Explain final verdict
+- [ ] Record timestamps
+- [ ] Document affected user
+- [ ] Document affected host
+
+---
+
+## Escalation
+
+- [ ] Is escalation required?
+
+If yes:
+
+- [ ] Assign to L2
+- [ ] Include recommendation
+- [ ] Notify according to procedure
+
+---
+
+## Communication
+
+- [ ] Is another department required?
+
+Possible contacts:
+
+- IT
+- HR
+- Management
+- Incident Response
