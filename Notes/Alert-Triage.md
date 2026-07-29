@@ -106,3 +106,14 @@ Before making a decision an analyst should identify:
 Alert triage is not about deciding quickly.
 
 It is about making the correct decision using available evidence while reducing the risk of false positives and missed incidents.
+
+# After Triage
+
+Once the alert has been classified:
+
+- document investigation
+- write report
+- escalate if necessary
+- communicate with relevant teams
+
+Alert triage is not complete until the findings are documented.
