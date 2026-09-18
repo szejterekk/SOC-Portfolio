@@ -9,7 +9,9 @@ In a SOC, analysts use Splunk to investigate alerts and suspicious activity.
 ## Architecture
 
 Forwarder → collects and forwards data
+
 Indexer → stores and processes data
+
 Search Head → used to search and analyze data
 
 ## Events & Fields
@@ -37,28 +39,32 @@ index=VPN_Logs
 ## Source & Sourcetype
 
 source → where the data came from
+
 sourcetype → what type of data it is
 
 ## Basic SPL
 
-Search an index:
+### Search an index:
 
 index=VPN_Logs
 
-Filter by field:
+
+### Filter by field:
 
 index=VPN_Logs user="john"
 
-Filter by IP:
+
+### Filter by IP:
 
 index=VPN_Logs src_ip="10.10.10.10"
 
-Count events:
+
+### Count events:
 
 index=VPN_Logs
 | stats count
 
-Count by user:
+### Count by user:
 
 index=VPN_Logs
 | stats count by user
